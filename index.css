@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --purple500: #281154;
+  --purple300: #270082;
+  --purple600: #1b0058;
+  --red600: #dc0000;
+  --body: #f9f6ff;
+  --max-width: 1200px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+  padding: 10px 15px;
+  border: none;
+  transition: 0.2s ease-in-out
+}
+button:hover{
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+.container{
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+  background-color: #281154;
+  color: white;
+
+}
+.container ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap:50px;
+  
+}
+.logo{
+  font-size: larger;
+}
+a{
+  color: white;
+}
+.hero-section{
+  background-image: url(images/hero_image.png);
+  background-repeat:no-repeat;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: white;
+}
+.hero-section .container2{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero-section h1{
+  font-size: 60px
+}
+.hero-section h3{
+  font-size: 28px
+}
+.hero-section p{
+  font-size: 20px
+}
+.music-section{
+  padding-top:50px ;
+  background-color:#281154;
+
+}
+.container3{
+ max-width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+ 
+}
+.ipad-iphone-img{
+  margin-top: -400px;
+  position: relative;
+  top: 400px;
+}
+.primary_btn{
+  background-color: #dc0000;
+  color: white;
+}
+.about_music{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 450px;
+  gap: 30px;
+}
+.about_music p{
+  font-size:medium;
+  font-style: var(--purple300);
+  font-family:'Times New Roman', Times, serif;
+}
+.music_btn{
+  background-color:blue;
+  color: white;
+}
+.video_container{
+  background-image: url(images/video.png);
+  background-repeat:no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 30px;
+color: white;
+}
+.video_container p{
+  margin-bottom: 400px;
+}
+.gift-section{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 100px;
+}
+.footercontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+ height: 200px;
+  background-color: #281154;
+  color: white;
+}
+ul{
+  list-style: none;
+}
+.footer-lower{
+  display: flex;
+  justify-content: center;
+  background-color: #281154;
+  color: white;
+}
+
